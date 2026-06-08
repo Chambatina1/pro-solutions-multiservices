@@ -1190,7 +1190,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-earth-800 text-sm">Teléfono</p>
-                  <p className="text-muted-foreground text-sm">(520) XXX-XXXX</p>
+                  <p className="text-muted-foreground text-sm">(786) 307-9608</p>
                   <p className="text-xs text-muted-foreground">Lunes a Sábado, 7am - 6pm</p>
                 </div>
               </div>
@@ -1201,7 +1201,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-earth-800 text-sm">Email</p>
-                  <p className="text-muted-foreground text-sm">info@prosolutionsmultiservices.com</p>
+                  <p className="text-muted-foreground text-sm">prosolutionsmultiservices@gmail.com</p>
                 </div>
               </div>
 
@@ -1271,7 +1271,7 @@ function ContactSection() {
                         id="phone"
                         type="tel"
                         required
-                        placeholder="(520) XXX-XXXX"
+                        placeholder="(786) 307-9608"
                         value={formData.phone}
                         onChange={(e) =>
                           setFormData((p) => ({ ...p, phone: e.target.value }))
@@ -1490,11 +1490,11 @@ function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-green-400 shrink-0" />
-                (520) XXX-XXXX
+                (786) 307-9608
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-green-400 shrink-0" />
-                info@prosolutionsmultiservices.com
+                prosolutionsmultiservices@gmail.com
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-green-400 shrink-0 mt-0.5" />
