@@ -1212,7 +1212,7 @@ function ContactSection() {
                 <div>
                   <p className="font-semibold text-earth-800 text-sm">Área de Servicio</p>
                   <p className="text-muted-foreground text-sm">
-                    Tucson, Phoenix, y áreas circundantes en Arizona
+                    Mesa, Arizona y áreas circundantes
                   </p>
                 </div>
               </div>
@@ -1498,7 +1498,7 @@ function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-green-400 shrink-0 mt-0.5" />
-                <span>Tucson, AZ y áreas circundantes</span>
+                <span>Mesa, AZ y áreas circundantes</span>
               </li>
               <li className="flex items-center gap-2">
                 <Clock className="h-4 w-4 text-green-400 shrink-0" />
